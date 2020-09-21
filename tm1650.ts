@@ -153,7 +153,7 @@ namespace TM1650 {
         }
         else
         {
-          iPosition = iPosition.substr(1,iPosition.length);
+          iPosition = iPosition.substr(1,iPosition.length - 1);
           showSring(iPosition);
           return (iPosition.length - 4);
         }
