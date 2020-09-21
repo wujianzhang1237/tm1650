@@ -25,7 +25,7 @@ namespace TM1650 {
 
     let _intensity = 3
     let dbuf = [0, 0, 0, 0]
-    let iPosition:str = ""
+    let iPosition = ""
 
     /**
      * send command to display
