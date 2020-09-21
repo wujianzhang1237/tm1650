@@ -128,11 +128,12 @@ namespace TM1650 {
     }
 
 
-     function displayRuning(str: string):number {
+     function displayRuning(str: string,del: number):number {
         iPosition  = str;
         showSring(iPosition); 
-        
+        basic.pause(del); 
         let l = iPosition.length;
+        
         if(l < 4)
         {
             return 0;
@@ -163,7 +164,7 @@ namespace TM1650 {
     //% blockId="showRunging" block="scroll display %str | rolling time(ms) %del"
     //% weight=90 blockGap=8
     export function showRunging(str: string,del: number) {
-        if(displayRuning(str))
+        if(displayRuning(str,del))
         {
             while(displayRunningShift())
             {
