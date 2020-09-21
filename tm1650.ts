@@ -160,9 +160,9 @@ namespace TM1650 {
 
     }
 
-    //% blockId="showRunging" block="scroll display and rolling time(ms) %del"
+    //% blockId="showRunging" block="scroll display %str | rolling time(ms) %del"
     //% weight=90 blockGap=8
-    export function showRunging(str: string,del:number) {
+    export function showRunging(str: string,del: number) {
         if(displayRuning(str))
         {
             while(displayRunningShift)
