@@ -25,6 +25,7 @@ namespace TM1650 {
 
     let _intensity = 3
     let dbuf = [0, 0, 0, 0]
+    let iPosition:str = ""
 
     /**
      * send command to display
@@ -124,6 +125,54 @@ namespace TM1650 {
             }
 
         }
+    }
+
+
+     function displayRuning(str: string):number {
+        iPosition  = str;
+        showSring(iPosition); 
+        
+        let l = iPosition.length;
+        if(l < 4)
+        {
+            return 0;
+        }
+        else
+        {
+            return (l - 4);
+        }
+
+    }
+
+    function displayRunningShift():number {
+
+        if(iPosition.length <= 4)
+        {
+            return 0;
+
+        }
+        else
+        {
+          iPosition = iPosition.substr(1,iPosition.length);
+          showSring(iPosition);
+          return (iPosition.length - 4);
+        }
+
+    }
+
+    //% blockId="showRunging" block="scroll display and rolling time(ms) %del"
+    //% weight=90 blockGap=8
+    export function showRunging(str: string,del:number) {
+        if(displayRuning(str))
+        {
+            while(displayRunningShift)
+            {
+                basic.pause(del);
+            }
+
+        }
+
+
     }
 
 
