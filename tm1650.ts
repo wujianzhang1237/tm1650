@@ -165,7 +165,7 @@ namespace TM1650 {
     export function showRunging(str: string,del: number) {
         if(displayRuning(str))
         {
-            while(displayRunningShift)
+            while(displayRunningShift())
             {
                 basic.pause(del);
             }
