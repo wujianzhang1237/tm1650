@@ -9,4 +9,5 @@
   "TM1650.showHex|block": "显示十六进制数 %num",
   "TM1650.showDpAt|block": "是否显示小数点在 %bit |位 %show",
   "TM1650.setIntensity|block": "设置亮度 %dat"  
+  
 }

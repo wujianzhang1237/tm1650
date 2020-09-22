@@ -8,5 +8,6 @@
   "TM1650.showRunging|block": "滾動顯示 %str |間隔(ms) %del",
   "TM1650.showHex|block": "顯示十六進制數 %num",
   "TM1650.showDpAt|block": "是否顯示小數點在 %bit |為 %show",
-  "TM1650.setIntensity|block": "設置亮度 %dat"  
+  "TM1650.setIntensity|block": "設置亮度 %dat" 
+  
 }

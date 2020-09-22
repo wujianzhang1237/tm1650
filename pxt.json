@@ -10,7 +10,7 @@
         "README.md",
         "tm1650.ts",
 		"_locales/zh-cn/tm1650-strings.json",
-		"_locales/zh-tw/tm1650-strings.json",
+		"_locales/zh-tw/tm1650-strings.json"
     ],
     "public": true
 }
