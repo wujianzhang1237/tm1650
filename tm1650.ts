@@ -1,9 +1,7 @@
-/*
-Copyright (C): 2010-2020, Shenzhen Yahboom Tech
-modified from wujianzhang
-load dependency
-"TM1650": "file:../pxt-TM1650"
-*/
+/**
+ * makecode Four Digit Display (TM1650) Package.
+ * From microbit/micropython Chinese community.
+ */
 
 /**
  * TM1650 digit Display
