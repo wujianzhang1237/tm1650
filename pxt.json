@@ -1,7 +1,7 @@
 {
     "name": "tm1650",
     "version": "0.0.0",
-    "description": "Extension for YahBoom tm1650 V1.0.1"",
+    "description": "",
     "license": "MIT",
     "dependencies": {
         "core": "*"
